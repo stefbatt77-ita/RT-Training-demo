@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#0f172a" stroke="url(#grad)" stroke-width="3"/>
+  
+  <!-- RT Letters -->
+  <text x="50" y="62" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="url(#grad)" text-anchor="middle">RT</text>
+  
+  <!-- X-ray beam lines -->
+  <line x1="20" y1="20" x2="35" y2="35" stroke="#0ea5e9" stroke-width="2" opacity="0.6"/>
+  <line x1="80" y1="20" x2="65" y2="35" stroke="#0ea5e9" stroke-width="2" opacity="0.6"/>
+  <line x1="20" y1="80" x2="35" y2="65" stroke="#6366f1" stroke-width="2" opacity="0.6"/>
+  <line x1="80" y1="80" x2="65" y2="65" stroke="#6366f1" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Demo badge -->
+  <circle cx="82" cy="18" r="12" fill="#f59e0b"/>
+  <text x="82" y="22" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">D</text>
+</svg>
